@@ -65,6 +65,23 @@ public class Main {
             System.out.println("Ребенок может кататься без сопровождения взрослого");
         }
 
+        // Задача 9
+
+        int one = 5;
+        int two = 8;
+        int three = 3;
+
+        if(one > two && one > three){
+            System.out.println("Большее число " + one);
+        }
+        else if(two > one && two > three){
+            System.out.println("Большее число " + two);
+        }
+        else if(three > one && three > two){
+            System.out.println("Большее число " + three);
+        }
+
+
 
 
 
