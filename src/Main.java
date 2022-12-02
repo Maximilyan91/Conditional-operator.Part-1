@@ -52,8 +52,23 @@ public class Main {
             System.out.println("Пора ходить на работу");
         }
 
+        // Задание 8
+
+        int attractionAge = 14;
+        if(attractionAge < 5){
+            System.out.println("Ребенок не может кататься на аттракционе");
+        }
+        else if (attractionAge >= 5 && attractionAge < 14){
+            System.out.println("Ребенок может кататься только в сопровождении взрослого");
+        }
+        else if (attractionAge >= 14){
+            System.out.println("Ребенок может кататься без сопровождения взрослого");
+        }
+
+
 
 
     }
+
 
 }
