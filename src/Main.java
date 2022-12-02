@@ -31,6 +31,19 @@ public class Main {
             System.out.println("человек окончил университет и ему пора искать первую работу");
         }
 
+        // Задача 3
+
+        int passenger = 80;
+
+        if(passenger <= 60){
+            System.out.println("В Вагоне имеются сидячие места");
+        }
+        if(passenger < 102){
+            System.out.println("В вагоне имеются стоячие места");
+        }
+        if (passenger >= 102 ){
+            System.out.println("В Вагоне мест нет");
+        }
 
 
 
