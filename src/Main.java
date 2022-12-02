@@ -22,7 +22,7 @@ public class Main {
         else if (babyAge >= 24) {
             System.out.println("человек окончил университет и ему пора искать первую работу");}
 
-        // Задача 3
+        // Задача 6
 
         int passenger = 80;
 
@@ -36,6 +36,21 @@ public class Main {
             System.out.println("В Вагоне мест нет");
         }
 
+        // Задача 7
+
+        int age2 = 20;
+        if(age2 > 2 && age2 < 6){
+            System.out.println("Человеку нужно ходить в детский сад");
+        }
+        else if(age2 > 7 && age2 < 18){
+            System.out.println("Человеку нужно ходить в школу");
+        }
+        else if(age2 > 18 && age2 < 24){
+            System.out.println("Человеку нужно ходить в университет");
+        }
+        else if(age2 < 24){
+            System.out.println("Пора ходить на работу");
+        }
 
 
 
